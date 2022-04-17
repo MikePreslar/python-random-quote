@@ -7,9 +7,13 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  last = 13
+  last = 14
   rnd = random.randint(0, last)
 
+  print(quotes[rnd])
+
+  last = 14
+  rnd = random.randint(0, last)
   print(quotes[rnd])
 
 if __name__== "__main__":
